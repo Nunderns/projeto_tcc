@@ -14,8 +14,8 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-16 w-[calc(100%-16rem)] bg-black text-white py-4 px-6 border-b border-gray-800">
-      <h1 className="text-xl font-bold">{pageTitles[pathname] || "Threads"}</h1>
+    <header className="fixed top-0 left-20 w-[calc(100%-20rem)] bg-black text-white py-5 px-8 border-b border-gray-800">
+      <h1 className="text-2xl font-semibold">{pageTitles[pathname] || "Threads"}</h1>
     </header>
   );
 }
